@@ -1,0 +1,73 @@
+body{
+  font-family: 'Russo One', sans-serif;
+}
+.shopping-list{
+  margin-top: 13vh;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping{
+  margin: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.element{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  width: 75%;
+  font-size: 18px;
+  border: none;
+  border-bottom: 4px solid black;
+}
+.buttons{
+  align-self: flex-end;
+}
+#newitem-input{
+  font-family: 'Russo One', sans-serif;
+  min-height: 25px;
+  min-width: 60vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid black;
+  padding: 5px;
+  font-size: 25px;
+}
+#newitem-input::placeholder{
+  color: black;
+  opacity: 50%;
+}
+#newitem-input:focus{
+  outline: none;
+}
+#newitem-input:focus::placeholder{
+  outline: none;
+  color: transparent;
+}
+button{
+  display: flex;
+  padding: 3px 6px; 
+  justify-content: center;
+  align-items: center;
+  min-height: 35px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+i{
+  font-size: 40px;
+}
+i:hover{
+  transition-duration: 0.5s;
+  transform: rotate(360deg);
+}
